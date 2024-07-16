@@ -11,3 +11,6 @@ i = 1
     Movie.create(title: "Movie #{i} Title", rating: rand(1..10), description: "This is a description about Movie #{i}")
     i+=1
 end 
+
+user_1 = User.create!(name: 'User One', email: 'user1@example.com', password: 'password', password_confirmation: 'password')
+user_2 = User.create!(name: 'User Two', email: 'user2@example.com', password: 'password', password_confirmation: 'password')
